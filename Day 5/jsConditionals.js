@@ -1,5 +1,5 @@
 // const num = prompt("Enter the number to check isMultiple or not: ");
-
+//  string problem solving tomorrow 
 const num = 15;
 
 if(num % 5 === 0){
