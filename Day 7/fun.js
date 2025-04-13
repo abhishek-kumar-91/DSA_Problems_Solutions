@@ -10,7 +10,6 @@ function square(a){
     return a*a;
 }
 
-
 //Write a function that returns the length of a string.
 
 function lengthOfString(str){
@@ -67,5 +66,14 @@ function defaultPara(a = 5, b){
 //Write a function that returns the factorial of 5.
 
 function factorial(f){
-    
+    let factorial = 1;
+    for(let i = 1; i <= f; i++){
+        factorial *= i;
+    }
+    return factorial;
 }
+
+
+console.log(factorial(4));
+
+
